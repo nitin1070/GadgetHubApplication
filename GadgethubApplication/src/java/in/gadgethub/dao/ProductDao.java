@@ -27,6 +27,7 @@ public interface ProductDao {
     public Boolean sellNProduct(String prodId,int n);
     public List<String>getAllProductsType();
     public byte[]getImage(String prodId);
+    public String removeProduct(String prodId);
     
     
     

@@ -3,10 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/java/in/gadgethub/pojo/DemandPojo.java</file>
+            <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/java/in/gadgethub/dao/DemandDao.java</file>
             <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/java/in/gadgethub/dao/ProductDao.java</file>
+            <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/java/in/gadgethub/dao/impl/DemandDaoImpl.java</file>
             <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/web/WEB-INF/web.xml</file>
             <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/java/in/gadgethub/dao/impl/UserDaoImpl.java</file>
+            <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/conf/MANIFEST.MF</file>
             <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/java/in/gadgethub/dao/UserDao.java</file>
+            <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/java/in/gadgethub/pojo/OrderDetailsPojo.java</file>
             <file>file:/C:/GadgethubProject-workspace/GadgethubApplication/src/java/in/gadgethub/dao/impl/ProductDaoImpl.java</file>
         </group>
     </open-files>

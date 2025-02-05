@@ -455,7 +455,35 @@ public byte[] getImage(String prodId) {
     return image;
 }
 
-
-
+    @Override
+    public String removeProduct(String prodId) {
+       
+     String status ="Product removal failed";
+      Connection conn = DBUtil.provideConnection();
+      PreparedStatement ps1 =null;
+      PreparedStatement ps2 =null;
+      
+      try{
+          
+          ps1= conn.prepareStatement("UPDATE products set available ='N' where pid =?");
+          ps1.setString(1,prodId);
+          int k = ps1.executeUpdate();
+          if(k>0){
+              status ="Prodcut removed successfully";
+              ps2=conn.prepareStatement("DELETE FROM usercart where prodid=?");
+              ps2.setString(1, prodId);
+              k=ps2.executeUpdate();
+          }
+         
+      }
+     
+      catch (SQLException ex) {
+        System.err.println("Error removing product: " + ex.getMessage());
+        ex.printStackTrace();
+    }
+           DBUtil.closeStatement(ps1);
+            DBUtil.closeStatement(ps2);
+        return status;
+    }
 
 }
